@@ -1,0 +1,16 @@
+// package.json
+{
+  "name": "hogwarts-sorting-hat",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://JervisAnthony.github.io/Hogwarts-Sorting-Hat",
+  "dependencies": {
+    // ... your dependencies
+  },
+  "scripts": {
+    // ... existing scripts
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  // ... rest of the package.json
+}
